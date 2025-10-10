@@ -1,4 +1,4 @@
-** start of script.js **
+// start of script.js
 
 function launchFuel(payload) {
   let count = 0;
@@ -11,5 +11,5 @@ function launchFuel(payload) {
   return count.toFixed(1);
 }
 
-** end of script.js **
+//end of script.js **
 
