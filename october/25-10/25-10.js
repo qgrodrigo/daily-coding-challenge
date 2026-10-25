@@ -1,4 +1,3 @@
-// start of script.js **
 
 function complementaryDNA(strand) {
 
@@ -16,5 +15,4 @@ function complementaryDNA(strand) {
     return complementary;
 }
 
-// end of script.js **
 

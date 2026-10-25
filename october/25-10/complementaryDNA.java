@@ -1,7 +1,9 @@
+import java.util.HashMap;
+
 class code{
 
-    public String complementaryDNA(strand) {
-        <String, String> dictionary = new HashMap<>();
+    public String complementaryDNA(String strand) {
+        HashMap<String, String> dictionary = new HashMap<>();
 
         dictionary.put("A", "T");
         dictionary.put("T", "A");
@@ -11,4 +13,5 @@ class code{
         String complementary = "";
 
         return complementary; 
+    }
 }
