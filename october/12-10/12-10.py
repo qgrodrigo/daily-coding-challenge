@@ -15,8 +15,7 @@ def battle(our_team, opponent):
         if(sum_words_value(team) < sum_words_value(opponent)):
             opp += 1
 
-    print(our)
-    print(opp)
+
 
     if our > opp:
        return 'We win'
@@ -33,6 +32,7 @@ def sum_words_value(word):
     value = 0
         
     for letter in word:
+
         if(letter == letter.upper()):
             value += (ord(letter) - 64) * 2 
         else:

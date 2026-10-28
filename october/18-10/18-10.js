@@ -29,7 +29,7 @@ function sockPairs(pairs, cycles) {
 
     console.log(totalPairs)
 
-    return pairs;
+    return totalPairs;
 }
 
 sockPairs(2, 5)  //should return 1.
